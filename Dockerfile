@@ -13,4 +13,4 @@ LABEL maintainer.email="whargrea@uoguelph.ca"
 # install jre and ttf-dejavu which contians fonts for the fastqc report
 # (alpine lacks all fonts)
 RUN sudo apk update && \
-    sudo apk add --no-cache openjdk8-jre ttf-dejavu
+    sudo apk add --no-cache openjdk8-jre
